@@ -14,7 +14,7 @@ void *mainWatku(void *i_priv)
 
 int main()
 {
-	const unsigned NUMBER_OF_THREADS = 9;
+	const unsigned NUMBER_OF_THREADS = 7;
     pthread_t threads[NUMBER_OF_THREADS];
 	
     for (unsigned i = 1; i <= NUMBER_OF_THREADS; ++i)
