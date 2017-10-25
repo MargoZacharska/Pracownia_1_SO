@@ -1,7 +1,7 @@
 all : program
 
-program : proba_do_pracowni_SO.cpp
-	g++ -pthread -Wall -Wextra -Werror proba_do_pracowni_SO.cpp -o program
+program : main.cpp
+	g++ -pthread -Wall -Wextra -Werror main.cpp -o program
 	
 run :
 	./program
